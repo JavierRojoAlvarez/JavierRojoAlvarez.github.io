@@ -22,7 +22,7 @@ myImage.onclick = () => {
   if (mySrc === "Images/Laetitia.jpg") {
     myImage.setAttribute("src", "images/alicia-silverstone.jpg");
   } else {
-    myImage.setAttribute("src", "Images/Laetitia.jpg");
+    myImage.setAttribute("src", "images/Laetitia.jpg");
   }
 };
 
