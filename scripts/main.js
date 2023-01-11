@@ -19,10 +19,10 @@ const myImage = document.querySelector("img");
 
 myImage.onclick = () => {
   const mySrc = myImage.getAttribute("src");
-  if (mySrc === "Images/linda-evangelista-versace-1994-z.jpg.webp") {
+  if (mySrc === "Images/Laetitia.jpg") {
     myImage.setAttribute("src", "images/alicia-silverstone.jpg");
   } else {
-    myImage.setAttribute("src", "Images/linda-evangelista-versace-1994-z.jpg.webp");
+    myImage.setAttribute("src", "Images/Laetitia.jpg");
   }
 };
 
